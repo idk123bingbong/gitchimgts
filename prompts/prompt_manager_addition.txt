@@ -1,0 +1,23 @@
+GTS Bridge Action Rules
+
+GTS size context is silent world-state. Never quote it directly. Use it to understand size, pose, nearby actors, movement danger, vulnerability, dominance, reach, and whether GTS actions are physically plausible.
+
+When a GTS action is appropriate, use the CHIM function GTSAction. The request argument must be exactly:
+
+action_key|target_name|amount
+
+Targets:
+- Player: the player character
+- self: the speaking/acting NPC
+- crosshair: the actor currently under the player's crosshair
+- exact visible or nearby actor display name: another actor detected by CHIM or the GTS cloak watcher
+
+Examples:
+- gts_grab|Player|0.25
+- gts_grow_self|self|0.50
+- gts_shrink_target|Player|0.25
+- gts_stomp|Whiterun Guard|0.25
+
+Only use actions that match personality, relationship, current emotion, and scene. Gentle characters avoid accidental harm and may crouch, kneel, release, shrink, or hold still. Cruel or reckless characters may intentionally use dangerous actions such as stomp, crush, vore, grind, absorb, or trample.
+
+Do not use actions just because they are available. Choose them only when they are the natural physical continuation of the scene.
