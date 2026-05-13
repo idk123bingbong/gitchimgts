@@ -3,7 +3,7 @@
   "description": "CHIM integration for GTS Plugin / Size Matters NG. Registers GTS action commands for AI NPCs and routes them to Papyrus.",
   "config_url": "/HerikaServer/ext/chim-gts-bridge/index.php",
   "config_url_target": "_blank",
-  "git_repo": "YOUR_GITHUB_USERNAME/CHIM-GTS-Bridge",
+  "git_repo": "idk123bingbong/gitchimgts/chim-gts-bridge/",
   "version": "1.0.0",
   "schema_version": 2
 }
