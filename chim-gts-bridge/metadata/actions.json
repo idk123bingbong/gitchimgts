@@ -1,0 +1,474 @@
+[
+  {
+    "key": "gts_grow_self",
+    "description": "grow self",
+    "request_format": "gts_grow_self|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_shrink_self",
+    "description": "shrink self",
+    "request_format": "gts_shrink_self|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_grow_target",
+    "description": "grow target",
+    "request_format": "gts_grow_target|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_shrink_target",
+    "description": "shrink target",
+    "request_format": "gts_shrink_target|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_set_self_scale",
+    "description": "set self scale",
+    "request_format": "gts_set_self_scale|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_set_target_scale",
+    "description": "set target scale",
+    "request_format": "gts_set_target_scale|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_restore_size",
+    "description": "restore size",
+    "request_format": "gts_restore_size|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_crouch",
+    "description": "crouch",
+    "request_format": "gts_crouch|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_stand",
+    "description": "stand",
+    "request_format": "gts_stand|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_grab",
+    "description": "grab",
+    "request_format": "gts_grab|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_hug",
+    "description": "hug",
+    "request_format": "gts_hug|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_vore",
+    "description": "vore",
+    "request_format": "gts_vore|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_stomp",
+    "description": "stomp",
+    "request_format": "gts_stomp|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_kick",
+    "description": "kick",
+    "request_format": "gts_kick|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_thigh_sandwich",
+    "description": "thigh sandwich",
+    "request_format": "gts_thigh_sandwich|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_thigh_crush",
+    "description": "thigh crush",
+    "request_format": "gts_thigh_crush|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_butt_crush",
+    "description": "butt crush",
+    "request_format": "gts_butt_crush|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_breast_crush",
+    "description": "breast crush",
+    "request_format": "gts_breast_crush|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_knee_crush",
+    "description": "knee crush",
+    "request_format": "gts_knee_crush|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_cleavage",
+    "description": "cleavage",
+    "request_format": "gts_cleavage|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_crush",
+    "description": "crush",
+    "request_format": "gts_crush|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_finger_grind",
+    "description": "finger grind",
+    "request_format": "gts_finger_grind|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_foot_grind",
+    "description": "foot grind",
+    "request_format": "gts_foot_grind|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_release",
+    "description": "release",
+    "request_format": "gts_release|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_kick_low",
+    "description": "kick low",
+    "request_format": "gts_kick_low|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_kick_high",
+    "description": "kick high",
+    "request_format": "gts_kick_high|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_understomp",
+    "description": "understomp",
+    "request_format": "gts_understomp|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_trample",
+    "description": "trample",
+    "request_format": "gts_trample|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_strong_stomp",
+    "description": "strong stomp",
+    "request_format": "gts_strong_stomp|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_light_stomp",
+    "description": "light stomp",
+    "request_format": "gts_light_stomp|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_hand_swipe",
+    "description": "hand swipe",
+    "request_format": "gts_hand_swipe|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_hand_crush",
+    "description": "hand crush",
+    "request_format": "gts_hand_crush|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_roll_attack",
+    "description": "roll attack",
+    "request_format": "gts_roll_attack|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_thigh_crush_start",
+    "description": "thigh crush start",
+    "request_format": "gts_thigh_crush_start|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_thigh_crush_attack",
+    "description": "thigh crush attack",
+    "request_format": "gts_thigh_crush_attack|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_thigh_crush_exit",
+    "description": "thigh crush exit",
+    "request_format": "gts_thigh_crush_exit|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_thigh_sandwich_start",
+    "description": "thigh sandwich start",
+    "request_format": "gts_thigh_sandwich_start|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_thigh_sandwich_attack",
+    "description": "thigh sandwich attack",
+    "request_format": "gts_thigh_sandwich_attack|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_thigh_sandwich_heavy_attack",
+    "description": "thigh sandwich heavy attack",
+    "request_format": "gts_thigh_sandwich_heavy_attack|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_thigh_sandwich_exit",
+    "description": "thigh sandwich exit",
+    "request_format": "gts_thigh_sandwich_exit|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_butt_crush_start",
+    "description": "butt crush start",
+    "request_format": "gts_butt_crush_start|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_butt_crush_attack",
+    "description": "butt crush attack",
+    "request_format": "gts_butt_crush_attack|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_butt_crush_exit",
+    "description": "butt crush exit",
+    "request_format": "gts_butt_crush_exit|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_breast_crush_start",
+    "description": "breast crush start",
+    "request_format": "gts_breast_crush_start|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_breast_crush_attack",
+    "description": "breast crush attack",
+    "request_format": "gts_breast_crush_attack|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_breast_crush_exit",
+    "description": "breast crush exit",
+    "request_format": "gts_breast_crush_exit|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_put_between_breasts",
+    "description": "put between breasts",
+    "request_format": "gts_put_between_breasts|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_breast_suffocate",
+    "description": "breast suffocate",
+    "request_format": "gts_breast_suffocate|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_breast_absorb",
+    "description": "breast absorb",
+    "request_format": "gts_breast_absorb|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_breast_vore",
+    "description": "breast vore",
+    "request_format": "gts_breast_vore|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_remove_from_breasts",
+    "description": "remove from breasts",
+    "request_format": "gts_remove_from_breasts|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_knee_crush_start",
+    "description": "knee crush start",
+    "request_format": "gts_knee_crush_start|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_knee_crush_attack",
+    "description": "knee crush attack",
+    "request_format": "gts_knee_crush_attack|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_knee_crush_exit",
+    "description": "knee crush exit",
+    "request_format": "gts_knee_crush_exit|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_grab_attack",
+    "description": "grab attack",
+    "request_format": "gts_grab_attack|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_grab_eat",
+    "description": "grab eat",
+    "request_format": "gts_grab_eat|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_grab_throw",
+    "description": "grab throw",
+    "request_format": "gts_grab_throw|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": true
+  },
+  {
+    "key": "gts_grab_insert_breasts",
+    "description": "grab insert breasts",
+    "request_format": "gts_grab_insert_breasts|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  },
+  {
+    "key": "gts_grab_release",
+    "description": "grab release",
+    "request_format": "gts_grab_release|target|amount",
+    "target": "Player, self, crosshair, or exact visible/nearby actor display name",
+    "amount": "Growth/shrink/scale amount. Use 0.25 unless the action needs a different size value.",
+    "hostile": false
+  }
+]
